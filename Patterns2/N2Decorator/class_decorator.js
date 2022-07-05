@@ -16,7 +16,7 @@ class Decorator {
             const regex = new RegExp(this.getProduct().currency + '_' + currency);
             const conversion = this.getProduct().price * Object.entries(data).find(n => regex.test(n))[1]
 
-            console.log(`\n--- From ${this.getProduct().currency} to ${currency} ---`);
+            console.log(`\nFrom ${this.getProduct().currency} to ${currency}`);
 
             console.log(`- ${this.getProduct().name} ${this.getProduct().model} with a price of ${this.getProduct().price} ${this.getProduct().currency} it will cost ${conversion.toFixed(2)} ${currency}.\n`);
 
