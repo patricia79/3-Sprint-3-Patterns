@@ -54,8 +54,8 @@ class User{
     }
 }
 
-let user0 = new User('Dani');
-let user1 = new User('Manuel');
+let user0 = new User('Pat');
+let user1 = new User('Pol');
 
 var arrayThemes = [];
 
