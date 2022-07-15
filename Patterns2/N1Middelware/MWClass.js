@@ -56,5 +56,6 @@ function multiplica(a, b) {
   return total;
 
 */
+}
 
 module.exports = MW;

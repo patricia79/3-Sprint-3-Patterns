@@ -9,7 +9,7 @@ en cadascuna de les operacions.
 Invoca les execucions de la suma, la resta i la multiplicació, de manera que es vagin mostrant per la consola 
 les modificacions que es van fent als valors abans del resultat final*/
 
-const middle = require("./MWClass");
+const middle = require("./MWClass.js");
 const app = new middle();
 let numeros = require("./parametres.json");
 console.log (numeros);
